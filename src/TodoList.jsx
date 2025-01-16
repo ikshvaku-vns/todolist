@@ -2,6 +2,7 @@ import { useState } from "react";
 import TodoItem from "./TodoItem";
 import TodoForm from "./TodoForm";
 import { v4 as uuid } from "uuid";
+import "./TodoList.css";
 const inititialTodos = [
   { id: uuid(), text: "walk the dog", completed: false },
   { id: uuid(), text: "walk the cat", completed: true },

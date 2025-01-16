@@ -1,0 +1,21 @@
+.buttonConatiner {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.buttonConatiner button {
+  color: aqua;
+  background-color: rgb(8, 124, 124);
+  position: relative;
+  left: 20px;
+}
+
+.buttonConatiner button:hover {
+  cursor: pointer;
+}
+.inputTodo {
+  height: 2rem;
+  border-radius: 5px;
+  width: 200px;
+}
